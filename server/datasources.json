@@ -6,10 +6,10 @@
   "acesresults2": {
     "host": "process.env.dbhost",
     "port": 3306,
-    "database": "process.env.dbuser",
+    "database": "process.env.dbname",
     "password": "process.env.dbpass",
-    "name": "acesresults2",
-    "user": "root",
+    "name": "results2",
+    "user": "process.env.dbuser",
     "connector": "mysql"
   }
 }
