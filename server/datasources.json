@@ -4,12 +4,12 @@
     "connector": "memory"
   },
   "acesresults2": {
-    "host": "process.env.dbhost",
+    "host": "us-cdbr-iron-east-02.cleardb.net",
     "port": 3306,
-    "database": "process.env.dbname",
-    "password": "process.env.dbpass",
+    "database": "heroku_d3c419f25e0051e",
+    "password": "45083b5b",
     "name": "acesresults2",
-    "user": "process.env.dbuser",
+    "user": "b1797f593500af",
     "connector": "mysql"
   }
 }
