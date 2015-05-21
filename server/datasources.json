@@ -8,11 +8,7 @@
     "port": 3306,
     "database": "process.env.dbname",
     "password": "process.env.dbpass",
-<<<<<<< HEAD
     "name": "acesresults2",
-=======
-    "name": "results2",
->>>>>>> 0daa58a85b1e782c96a8a75842348c945a28f2d4
     "user": "process.env.dbuser",
     "connector": "mysql"
   }
