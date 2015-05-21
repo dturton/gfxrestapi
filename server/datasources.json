@@ -4,10 +4,10 @@
     "connector": "memory"
   },
   "acesresults2": {
-    "host": "localhost",
+    "host": "process.env.dbhost",
     "port": 3306,
-    "database": "acesresults2",
-    "password": "root",
+    "database": "process.env.dbuser",
+    "password": "process.env.dbpass",
     "name": "acesresults2",
     "user": "root",
     "connector": "mysql"
