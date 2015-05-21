@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Makes": {
+    "dataSource": "acesresults2",
+    "public": true
+  },
+  "Models": {
+    "dataSource": "acesresults2",
+    "public": true
+  },
+  "SubModels": {
+    "dataSource": "acesresults2",
+    "public": true
+  },
+  "Transmission": {
+    "dataSource": "acesresults2",
+    "public": true
+  }
+}
